@@ -95,7 +95,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   font-weight: 800;
   letter-spacing: 0.16em;
 }
-.brand-spark {
+/*.brand-spark {
   position: relative;
   width: 2.2rem;
   height: 2.2rem;
@@ -117,6 +117,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 .brand-spark i:nth-child(1) { top: -0.08rem; right: 0.25rem; }
 .brand-spark i:nth-child(2) { bottom: 0.1rem; left: -0.05rem; background: var(--yellow); }
 .brand-spark i:nth-child(3) { right: -0.03rem; bottom: 0.12rem; background: var(--blue-light); }
+*/
 .site-nav { min-width: 0; }
 .nav-list {
   display: flex;
@@ -261,13 +262,9 @@ h1, h2, h3 { font-family: var(--font-display); }
 .decor { position: absolute; z-index: -1; pointer-events: none; }
 .decor-dot { width: 120px; height: 100px; opacity: 0.75; background-image: radial-gradient(var(--blue) 1.8px, transparent 2.5px); background-size: 14px 14px; }
 .decor-dot--home { top: 1.7rem; left: -1rem; transform: rotate(-9deg); }
-.decor-rainbow { top: 2.5rem; right: -0.5rem; width: 92px; height: 138px; overflow: hidden; transform: rotate(8deg); }
-.decor-rainbow i { position: absolute; top: 1rem; left: 50%; width: 132px; height: 132px; border: 11px solid var(--pink); border-bottom-color: transparent; border-left-color: transparent; border-radius: 50%; transform: translateX(-50%) rotate(-12deg); }
-.decor-rainbow i:nth-child(2) { width: 104px; height: 104px; top: 1.88rem; border-color: var(--yellow); border-bottom-color: transparent; border-left-color: transparent; }
-.decor-rainbow i:nth-child(3) { width: 76px; height: 76px; top: 2.76rem; border-color: var(--blue); border-bottom-color: transparent; border-left-color: transparent; }
 .decor-hanger { top: -0.1rem; right: 5%; color: var(--blue); font: 700 5rem/1 var(--font-display); transform: rotate(90deg); }
-.decor-tag { top: 43%; left: -0.9rem; padding: 0.6rem 0.75rem; color: var(--white); background: var(--pink); border-radius: 0.45rem 0.45rem 0.45rem 0.1rem; font: 700 0.7rem/1.15 var(--font-display); text-align: center; text-transform: uppercase; transform: rotate(-8deg); }
-.decor-cloud { right: 0; bottom: -0.35rem; width: 8rem; height: 2.8rem; background: var(--blue-light); border-radius: 2rem; opacity: 0.85; }
+.decor-tag { top: 43%; left: -0.9rem; padding: 0.6rem 0.75rem; color：var(--white); background: var(--pink); border-radius: 0.45rem 0.45rem 0.45rem 0.1rem; font: 700 0.7rem/1.15 var(--font-display); text-align: center; text-transform: uppercase; transform: rotate(-8deg); }
+.decor-cloud { right: 0; bottom：-0.35rem; width: 8rem; height: 2.8rem; background: var(--blue-light); border-radius：2rem; opacity：0.85; }
 .decor-cloud::before, .decor-cloud::after { position: absolute; bottom: 0.55rem; content: ""; background: inherit; border-radius: 50%; }
 .decor-cloud::before { left: 1rem; width: 3.1rem; height: 3.1rem; }
 .decor-cloud::after { right: 1rem; width: 2.5rem; height: 2.5rem; }

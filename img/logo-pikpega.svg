@@ -1,14 +1,110 @@
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+
   <title id="title">Pikpega — Infantil e Adulto</title>
-  <desc id="desc">Logotipo azul com arcos coloridos e o nome Pikpega.</desc>
-  <rect width="720" height="240" rx="42" fill="#D8EBCB"/>
-  <g transform="translate(35 24)" fill="none" stroke-linecap="round" stroke-width="15">
-    <path d="M30 168a78 78 0 0 1 156 0" stroke="#C3265B"/>
-    <path d="M50 168a58 58 0 0 1 116 0" stroke="#FFD84D"/>
-    <path d="M70 168a38 38 0 0 1 76 0" stroke="#62C4F5"/>
+  <desc id="desc">Logotipo Pikpega com arco-íris, nuvens e gotas coloridas.</desc>
+
+
+  <!-- ARCO-ÍRIS COMPLETO -->
+  <g transform="translate(20 10) scale(0.38)">
+
+    <!-- Faixa vermelha -->
+    <path d="M20 385
+      C35 260 85 155 175 110
+      C270 60 380 105 445 190
+      C485 245 500 310 510 385
+      L455 385
+      C445 290 410 205 345 170
+      C265 125 180 155 125 215
+      C85 260 70 320 65 385 Z"
+      fill="#FB6772"/>
+
+    <!-- Faixa amarela -->
+    <path d="M65 385
+      C85 285 145 195 235 170
+      C325 145 415 205 455 385
+      L405 385
+      C380 290 330 225 260 225
+      C190 225 130 285 115 385 Z"
+      fill="#FDD232"/>
+
+    <!-- Faixa verde-água -->
+    <path d="M115 385
+      C145 300 195 245 265 245
+      C335 245 385 300 405 385
+      L355 385
+      C335 320 300 285 265 285
+      C225 285 190 320 175 385 Z"
+      fill="#29D1B3"/>
+
+    <!-- Nuvem esquerda -->
+    <path d="M0 390
+      C0 365 25 345 50 350
+      C65 315 115 310 145 350
+      C175 340 195 360 195 385
+      C215 405 200 445 170 450
+      C150 470 120 460 105 445
+      C85 465 55 465 35 445
+      C15 455 -5 435 0 390 Z"
+      fill="#8DCBFA"/>
+
+    <path d="M0 390
+      C20 365 35 365 55 375
+      C75 390 95 370 115 375
+      C140 390 165 375 180 365
+      C195 395 175 420 155 425
+      C130 435 115 420 100 425
+      C80 440 60 425 45 425
+      C25 440 5 425 0 420 Z"
+      fill="#B5DBFD"/>
+
+    <!-- Nuvem direita -->
+    <path d="M510 390
+      C510 360 485 345 460 350
+      C440 315 390 310 360 350
+      C330 340 305 360 305 385
+      C285 405 300 445 330 450
+      C350 470 380 460 395 445
+      C415 465 445 465 465 445
+      C485 455 515 435 510 390 Z"
+      fill="#8DCBFA"/>
+
+    <path d="M510 390
+      C490 365 475 365 455 375
+      C435 390 415 370 395 375
+      C370 390 345 375 330 365
+      C315 395 335 420 355 425
+      C380 435 395 420 410 425
+      C430 440 450 425 465 425
+      C485 440 505 425 510 420 Z"
+      fill="#B5DBFD"/>
+
+    <!-- Gotas azuis -->
+    <g fill="#B5DBFD">
+      <path d="M65 115 Q75 105 85 115 L85 135 Q75 150 65 135 Z"/>
+      <path d="M125 85 Q135 75 145 85 L145 105 Q135 120 125 105 Z"/>
+      <path d="M455 105 Q465 95 475 105 L475 125 Q465 140 455 125 Z"/>
+      <path d="M495 170 Q505 160 515 170 L515 190 Q505 205 495 190 Z"/>
+      <path d="M270 305 Q280 295 290 305 L290 325 Q280 340 270 325 Z"/>
+      <path d="M245 355 Q255 345 265 355 L265 375 Q255 390 245 375 Z"/>
+    </g>
+
   </g>
-  <circle cx="67" cy="198" r="8" fill="#FF8A2B"/>
-  <circle cx="199" cy="198" r="8" fill="#A778C8"/>
-  <text x="236" y="132" fill="#416BC7" font-family="Trebuchet MS, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-5">Pikpega</text>
-  <text x="246" y="180" fill="#C3265B" font-family="Trebuchet MS, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="6">INFANTIL E ADULTO</text>
+
+  <!-- NOME -->
+  <text x="236" y="132"
+        fill="#416BC7"
+        font-family="Trebuchet MS, Arial, sans-serif"
+        font-size="104"
+        font-weight="700"
+        letter-spacing="-5">Pikpega</text>
+
+  <!-- SUBTÍTULO -->
+  <text x="246" y="180"
+        fill="#C3265B"
+        font-family="Trebuchet MS, Arial, sans-serif"
+        font-size="24"
+        font-weight="700"
+        letter-spacing="6">INFANTIL E ADULTO</text>
+
 </svg>

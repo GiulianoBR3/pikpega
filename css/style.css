@@ -423,9 +423,12 @@ h1, h2, h3 { font-family: var(--font-display); }
 .footer-nav a:hover { color: var(--yellow); text-decoration: underline; text-underline-offset: 3px; }
 .footer-copy { flex: 0 0 100%; margin: 0; color: rgb(255 255 255 / 72%); font-size: 0.75rem; }
 
-.appearRight {
-  animation: slideInFromRight 1s ease forwards;
+
+.tilt {
+  animation: fadeUp 1s ease-out forwards;
+  rotate: 2deg;
 }
+
 .appear-opacity * {
   opacity: 0;
   animation: fadeIn 0.5s ease-out forwards;
@@ -485,21 +488,6 @@ h1, h2, h3 { font-family: var(--font-display); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
 }
-
-@keyframes slideInFromRight {
-  0% {
-    /* 2. Start completely off-screen to the right */
-    transform: translateX(100vw) translateY(-15vw) rotate(-30deg); 
-
-    opacity: 1;
-  }
-  100% {
-    /* 3. Land exactly where it naturally belongs in the layout */
-    transform: translateX(0) translateY(0) rotate(5deg);
-    opacity: 1;
-  }
-}
-
 
 @keyframes fadeIn {
   0% {

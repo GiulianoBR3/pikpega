@@ -101,7 +101,7 @@
 
   <!-- SUBTÍTULO -->
   <text x="246" y="180"
-        fill="#C3265B"
+        fill="#ffdd32"
         font-family="Trebuchet MS, Arial, sans-serif"
         font-size="24"
         font-weight="700"

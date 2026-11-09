@@ -25,7 +25,7 @@
   </header>
 
   <main id="conteudo" class="container page-main contact-main">
-    <span class="decor decor-dot decor-dot--page" aria-hidden="true"></span>
+    <span class="decor decor-dot decor-dot--home" aria-hidden="true"></span>
     <div class="page-heading page-heading--compact elements-up">
       <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Estamos por aqui</p>
       <h1><span>Contate-nos</span></h1>
@@ -36,7 +36,9 @@
       <div class="row g-4">
         <article class="col-md-6">
           <div class="contact-card">
-            <span class="contact-icon contact-icon--instagram" aria-hidden="true">ig</span>
+            <div class="contact-icon contact-icon--instagram" aria-hidden="true">
+              <img class="icon" src="img/instagram.svg" alt="instagram">
+            </div>
             <p class="contact-kicker">Acompanhe por lá</p>
             <h2>Instagram</h2>
             <p class="contact-value">@PIK_PEGABRECHO</p>
@@ -46,7 +48,9 @@
         </article>
         <article class="col-md-6">
           <div class="contact-card">
-            <span class="contact-icon contact-icon--whatsapp" aria-hidden="true">wa</span>
+            <div class="contact-icon contact-icon--whatsapp" aria-hidden="true">
+              <img class="icon" src="img/whatsapp.svg" alt="whatsapp">
+            </div>
             <p class="contact-kicker">Converse com a gente</p>
             <h2>WhatsApp</h2>
             <p class="contact-value">+55 (11) XXXXX-XXXX</p>
@@ -77,10 +81,21 @@
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner">
-    <a class="footer-brand" href="index.html">Pikpega <span>— Infantil e Adulto</span></a>
-    <nav class="footer-nav" aria-label="Navegação do rodapé"><a href="index.html">Home</a><a href="kids.html">Kids</a><a href="adulto.html">Adulto</a><a href="redes.html">Nossas redes</a></nav>
-    <p class="footer-copy">© 2026 Pikpega. Todos os direitos reservados.</p>
-  </div></footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="index.html">
+        <img class="footer-brand-img" src="img/logo-pikpega.svg" alt="Logo">
+      </a>
+      <nav class="footer-nav" aria-label="Navegação do rodapé">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kids.html">Kids</a></li>
+          <li><a href="adulto.html">Adulto</a></li>
+          <li><a href="redes.html">Nossas redes</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">© 2026 Pikpega. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -421,6 +421,11 @@ h1, h2, h3 { font-family: var(--font-display); }
 .footer-nav a:hover { color: var(--yellow); text-decoration: underline; text-underline-offset: 3px; }
 .footer-copy { flex: 0 0 100%; margin: 0; color: rgb(255 255 255 / 72%); font-size: 0.75rem; }
 
+.appear {
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+
 @media (max-width: 767.98px) {
   .header-inner { flex-direction: column; align-items: stretch; gap: 0.65rem; padding: 0.85rem; }
   .brand { justify-content: center; }
@@ -467,4 +472,18 @@ h1, h2, h3 { font-family: var(--font-display); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+
+  @keyframes slideInFromRight {
+  0% {
+    /* 2. Start completely off-screen to the right */
+    transform: translateX(100vw) translateY(-15vw) rotate(-30deg); 
+
+    opacity: 0;
+  }
+  100% {
+    /* 3. Land exactly where it naturally belongs in the layout */
+    transform: translateX(0) translateY(0) rotate(5deg);
+    opacity: 1;
+  }
 }

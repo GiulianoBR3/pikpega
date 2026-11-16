@@ -16,9 +16,10 @@
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header container-fluid">
-    <div class="header-inner">
+    <div class="header-inner position-relative">
       <a class="brand" href="index.html" aria-label="Pikpega — página inicial"><span class="brand-spark" aria-hidden="true"><img src="img/logo.svg" alt="Logo" width="32" height="32"></span><span class="brand-copy"><strong>Pikpega</strong><small>INFANTIL E ADULTO</small></span></a>
-      <nav class="site-nav" aria-label="Navegação principal"><ul class="nav-list">
+      <button class="navbar-toggler d-md-none position-absolute top-0 end-0 mt-3 me-3 border-0 p-1 shadow-none" type="button" data-bs-theme="dark" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button>
+      <nav class="site-nav collapse d-md-block" id="menuPrincipal" aria-label="Navegação principal"><ul class="nav-list flex-column flex-md-row">
         <li><a class="nav-link" href="index.html">Home</a></li><li><a class="nav-link" href="kids.html">Kids</a></li><li><a class="nav-link is-active" href="adulto.html" aria-current="page">Adulto</a></li><li><a class="nav-link" href="redes.html">Nossas redes</a></li>
       </ul></nav>
     </div>
@@ -59,20 +60,14 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <a class="footer-brand" href="index.html">
-        <img class="footer-brand-img" src="img/logo-pikpega.svg" alt="Logo">
-      </a>
+      <a class="footer-brand" href="index.html">Pikpega <span>— Infantil e Adulto</span></a>
       <nav class="footer-nav" aria-label="Navegação do rodapé">
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="kids.html">Kids</a></li>
-          <li><a href="adulto.html">Adulto</a></li>
-          <li><a href="redes.html">Nossas redes</a></li>
-        </ul>
+	      <a href="index.html">Home</a><a href="kids.html">Kids</a><a href="adulto.html">Adulto</a><a href="redes.html">Nossas redes</a>
       </nav>
       <p class="footer-copy">© 2026 Pikpega. Todos os direitos reservados.</p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 

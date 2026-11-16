@@ -429,7 +429,7 @@ h1, h2, h3 { font-family: var(--font-display); }
 .footer-inner { min-height: 92px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.8rem 1.5rem; padding-block: 1.1rem; }
 .footer-brand { color: var(--white); font: 600 1.25rem/1 var(--font-display); text-decoration: none; }
 .footer-brand span { font: 700 0.82rem/1 var(--font-body); }
-.footer-nav { width: 1em; height: auto; display: flex; flex-wrap:wrap; gap: 0.4rem 1rem; }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; }
 .footer-nav a { color: rgb(255 255 255 / 88%); font-size: 0.82rem; font-weight: 800; text-decoration: none; }
 .footer-nav a:hover { color: var(--yellow); text-decoration: underline; text-underline-offset: 3px; }
 .footer-copy { flex: 0 0 100%; margin: 0; color: rgb(255 255 255 / 72%); font-size: 0.75rem; }
@@ -478,6 +478,8 @@ h1, h2, h3 { font-family: var(--font-display); }
 }
 
 @media (max-width: 420px) {
+  .site-nav .nav-link:hover { color: var(--yellow); background: #00000000; transform: translateY(-1px); }
+  .site-nav .nav-link.is-active { color: var(--yellow); background: #00000000;}
   .site-header { padding-inline: 0.55rem; }
   .header-inner { border-radius: 1rem; }
   .site-nav .nav-list { gap: 0; }

@@ -7,7 +7,7 @@ Nosso site possui 4 páginas; \
 3 * página mostrando peça de roupas e calçados adultos \
 4 * página de contato. \
 \
-O site é responsível e segue a identidade visual da marca.
+O site é responsívo e segue a identidade visual da marca.
 
 
 

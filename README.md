@@ -1,4 +1,4 @@
-# Sobre o site \
+# Sobre o site
 Brechó Pik Pega - Infantil e adulto \
 \
 Nosso site possui 4 páginas; \

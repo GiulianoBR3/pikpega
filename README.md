@@ -18,7 +18,7 @@ https://pikpega.vercel.app/
 
 
 # Integrantes:
-Giuliano de Toledo Furlanetto 
-Augusto Souza Morais
-Juan Correia 
-Sophia Neves
+Giuliano de Toledo Furlanetto \ 
+Augusto Souza Morais \
+Juan Correia \
+Sophia Neves \

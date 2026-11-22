@@ -16,7 +16,7 @@ https://canva.link/s5z3kfcp55xi4jr \
 https://pikpega.vercel.app/ \
 https://pikpega-ai.vercel.app/ \
 https://github.com/GiulianoBR3/pikpega.git \
-https://github.com/GiulianoBR3/pikpega-ai.git\
+https://github.com/GiulianoBR3/pikpega-ai.git \
 
 
 # Integrantes:

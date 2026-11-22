@@ -6,7 +6,6 @@ Nosso site possui 4 páginas; \
 - 2 - Página mostrando peças de roupas e calçados infantis. \
 - 3 - Página mostrando peça de roupas e calçados adultos. \
 - 4 - Página de contato. \
-\
 
 **O site é responsívo e segue a identidade visual da marca.**
 

@@ -424,6 +424,10 @@ h1, h2, h3 { font-family: var(--font-display); }
 .social-callout p { margin: 0.35rem 0 0; color: rgb(255 255 255 / 88%); font-size: 0.85rem; }
 .social-status { flex: 0 0 auto; margin-left: auto; padding: 0.4rem 0.65rem; color: var(--pink); background: var(--yellow); border-radius: 999px; font-size: 0.68rem; font-weight: 900; text-align: center; text-transform: uppercase; }
 
+.contact-btn {
+  border: black 1px solid;
+}
+
 /* Footer */
 .site-footer { margin-top: 1rem; color: var(--white); background: var(--blue-dark); }
 .footer-inner { min-height: 92px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.8rem 1.5rem; padding-block: 1.1rem; }
